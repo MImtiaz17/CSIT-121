@@ -1,0 +1,106 @@
+/*Center Webpage*/
+#wrapper {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+
+/*Header*/
+.heading {
+	text-align: center;
+}
+
+.columns {
+	padding: 15px;
+	width: 50%;
+	min-height: 300px;
+}
+
+.headhead {
+	background-color: seagreen;
+	padding: 20px;
+	text-align: center;
+}
+
+.main {
+	min-height: 300px;
+	width: 900px;
+	background-color: ivory;
+}
+
+.footer {
+	background-color: seagreen;
+	padding: 15px;
+	text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+	.main {
+		width: 100%;
+	}
+}
+
+div {
+	margin: 25px 50px 75 px;
+}
+
+body {
+	background-color: lavenderblush;
+	background-image: url(https://st4.depositphotos.com/27777970/40799/v/450/depositphotos_407998770-stock-illustration-seamless-repeat-pattern-butterflies-seamless.jpg);
+}
+
+h1 {
+	color: beige;
+	font-family: Verdana;
+}
+
+h2 {
+	color: palevioletred;
+	font-family: Arial;
+}
+
+p {
+	color: rosybrown;
+	font-family: Arial;
+}
+
+
+p.p3 {
+	padding: 35px;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: beige;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: lightseagreen;
+}
+
+ul {
+	color:rosybrown;
+	font-family: Arial;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: mediumseagreen;
+}
+
+ol {
+	color: rosybrown;
+	font-family: Arial;
+}
