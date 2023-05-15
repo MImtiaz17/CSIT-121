@@ -1,0 +1,67 @@
+/*Center Webpage*/
+#wrapper {
+	background-color: darkseagreen;
+	margin: auto;
+	width: 75%;
+	min-width: 700px;
+	max-width: 1024px;
+}
+
+.footer {
+	background-color: seagreen;
+	padding: 20px;
+	color: ivory;
+}
+
+/* Style the header section */
+.headhead {
+	background-color: seagreen;
+	padding: 20px;
+	text-align: center;
+	color: ivory;
+}
+
+
+main {
+	margin-left: 225px;
+	padding: 10px;
+	background-color: cornsilk;
+	color: saddlebrown;
+}
+
+main {
+	display: block;
+}
+body {
+	background-color: ivory;
+	background-image: url("https://www.berlindrawingroom.com/wp-content/uploads/2022/03/Linocut_Pattern_500x300-1-of-1.jpg");
+}
+
+/* link elements */
+a:hover {
+	color: lightsalmon;
+}
+		
+a:visited {
+	color: lavender;
+}
+		
+a:link {
+	color: lightsalmon;
+}
+		
+a:active {
+	color: lightseagreen;
+}
+
+/*Table*/
+table {
+	border-collapse: collapse;
+	background-color: ivory;
+	color: olivedrab;
+	border: solid darkkhaki 0.5px;
+}
+th, td {
+	padding: 10px;
+	border: solid darkkhaki, 1px;
+}
